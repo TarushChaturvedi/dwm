@@ -1,0 +1,4 @@
+dwm
+transient
+*.o
+*.gz
