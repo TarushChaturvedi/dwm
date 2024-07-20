@@ -4,3 +4,4 @@ transient
 *.gz
 *.diff
 *.bak
+*.rej
