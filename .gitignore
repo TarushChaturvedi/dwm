@@ -2,3 +2,4 @@ dwm
 transient
 *.o
 *.gz
+*.diff
