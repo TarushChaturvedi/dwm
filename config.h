@@ -5,7 +5,7 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
-static const char *fonts[] = { "JetBrains Mono Nerd Font:size=11:style=Regular" };
+static const char *fonts[]	    = { "JetBrains Mono Nerd Font:size=11:style=Regular" };
 static const char dmenufont[]       = "JetBrains Mono Nerd Font:size=11:style=Regular";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
@@ -29,6 +29,7 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "kitty",    NULL,       NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
